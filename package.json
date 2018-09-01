@@ -1,0 +1,15 @@
+{
+  "name": "tracking-api-node",
+  "version": "1.0.0",
+  "description": "Example Client for Lightbug Tracking Api in Node",
+  "main": "getting-started.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lightbug LTD",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "tracking-api": "^1.1.0"
+  }
+}
