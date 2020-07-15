@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "mqtt": "^2.18.8",
-    "tracking-api": "^1.1.0"
+    "tracking-api": "^1.1.3"
   }
 }
