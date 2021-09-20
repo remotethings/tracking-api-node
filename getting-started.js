@@ -43,7 +43,7 @@ userApi.userLogin({username: USERNAME, password: PASSWORD}, {}, (err, res) => {
                    console.log(`### Points for ${device.name} ###`)
                    points.forEach(point => {
                        console.log(`${point.timestamp}: ${point.location.lat.toFixed(5)},${point.location.lng.toFixed(5)}` +
-                       ` address: ${point.address}, speed: ${point.speed} kmh, bearing: ${point.course}, battery: ${point.batteryVoltage}V`);
+                       ` address: ${point.address}, speed: ${point.speed} kmh, bearing: ${point.course}, battery: ${point.batteryPct}% ${point.batteryVoltage}V`);
                    });
                    console.log(`### END ###`)
                }

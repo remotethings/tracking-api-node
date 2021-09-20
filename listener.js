@@ -63,7 +63,7 @@ userApi.userLogin({username: USERNAME, password: PASSWORD}, {}, (err, res) => {
            clientId: credentials.clientId,
            username: credentials.username,
            password: credentials.password,
-           clean: false // allow messages to be queued up when we're disconnected
+           clean: true // allow messages to be queued up when we're disconnected
        });
 
         client.on('connect', function (connack) {
